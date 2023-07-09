@@ -20,7 +20,7 @@ The team utilized Git, a free and open-source distributed version control system
 
 ## Conclusion
 
-RideMate is a successful example of a Scrum-based front-end project built using modern web development technologies and tools. By leveraging FAU Lampserver??, Trello, and Git, the team was able to effectively collaborate, manage, and host the project, resulting in a high-quality application.
+RideMate is a successful example of a Scrum-based front-end project built using modern web development technologies and tools. By leveraging Trello, and Git, the team was able to effectively collaborate, manage, and host the project, resulting in a high-quality application.
 
 ## Collaborators
 
