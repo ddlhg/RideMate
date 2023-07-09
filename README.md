@@ -1,4 +1,4 @@
-#RideMate
+# RideMate
 
 A group of students in the Principles of Software Engineering class created a Scrum-based front-end project. Their primary goal was to develop an application using modern web development technologies and tools.
 
@@ -22,10 +22,10 @@ The team utilized Git, a free and open-source distributed version control system
 
 RideMate is a successful example of a Scrum-based front-end project built using modern web development technologies and tools. By leveraging FAU Lampserver??, Trello, and Git, the team was able to effectively collaborate, manage, and host the project, resulting in a high-quality application.
 
-### Collaborators
+## Collaborators
 
-Antonio Croissy - acroissy2019@fau.edu
-Ameer Khan - akhan2019@fau.edu
-Daniela Herrera - dherrera2022@fau.edu
-Gikai Andrews - gandrews2020@fau.edu
-Jerusha Stewart - jerushastewa2022@fau.edu
+- Antonio Croissy - acroissy2019@fau.edu
+- Ameer Khan - akhan2019@fau.edu
+- Daniela Herrera - dherrera2022@fau.edu
+- Gikai Andrews - gandrews2020@fau.edu
+- Jerusha Stewart - jerushastewa2022@fau.edu
