@@ -22,6 +22,10 @@ Git, a free, open-source distributed version control system, was used by the tea
 
 RideMate is a successful example of a Scrum-based front-end project built using modern web development technologies and tools. By leveraging Trello and Git, the team was able to effectively collaborate, manage, and host the project, resulting in a high-quality application.
 
+### Instructions
+- do npm install
+- npm run dev
+
 
 ### Project Team 13
 homepage picture!!
