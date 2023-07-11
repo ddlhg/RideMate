@@ -1,0 +1,39 @@
+body{
+    background-color: #0058cb;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+}
+
+.intro-text{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+
+hr.solid{
+    border-top: 3px solid #bbb;
+
+}
+
+.driver{
+    padding-top: 12px;
+}
+
+.safety-section{
+    color: white;
+    align-items: center;
+}
+
+.statistics-section{
+    font-size: 23px;
+    display: flex;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.safety-picture{
+    align-items: center;
+}

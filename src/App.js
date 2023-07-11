@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+import Homepage from './components/Homepage'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import firebase from "firebase/compat/app";
 import { initializeApp } from "firebase/app";
@@ -32,7 +33,7 @@ const analytics = getAnalytics(app);
       <Router>
         <Navbar/>
         <Routes>
-          <Route exact path='/' />
+          <Route exact path='/' Component={Homepage} />
         </Routes>
       </Router>
     </>
