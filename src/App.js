@@ -6,6 +6,8 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import firebase from "firebase/compat/app";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import Registerpage from './components/Registerpage';
+import Login from './components/Login';
 
 function App() {
   // Import the functions you need from the SDKs you need
@@ -31,9 +33,15 @@ const analytics = getAnalytics(app);
   return (
     <>
       <Router>
-        <Navbar/>
         <Routes>
-          <Route exact path='/' Component={Homepage} />
+          <Route exact path='/' element={
+            <>
+            <Navbar/>
+            <Homepage/>
+            </>
+          }/>
+          <Route exact path='/register' Component={Registerpage}/>
+          <Route exact path='/login' Component={Login}/>
         </Routes>
       </Router>
     </>
