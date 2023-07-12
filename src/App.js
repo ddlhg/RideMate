@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Homepage from './components/Homepage'
+import Navbar from './components/Navbar/Navbar';
+import Homepage from './components/Homepage/Homepage'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import firebase from "firebase/compat/app";
 import { initializeApp } from "firebase/app";
