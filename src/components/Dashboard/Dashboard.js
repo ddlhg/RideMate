@@ -1,6 +1,6 @@
 import React from 'react';
 import './Dashboard.css';
-import sara from "./images/sara.jpg";
+import sara from "../images/sara.jpg";
 
 function Dashboard() {
 
