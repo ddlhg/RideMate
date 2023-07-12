@@ -1,26 +1,36 @@
-import React from 'react';
-import './Dashboard.css';
+import React from "react";
+import "./Dashboard.css";
 import sara from "../images/sara.jpg";
 
 function Dashboard() {
+  return (
+    <div className="section-container">
+      <div className="image-container">
+        <img className="floating-image" src={sara} alt="Floating" />
+        <p>Location</p>
+      </div>
 
-    return (
-        <div className="section-container">
-
-            <div className="image-container">
-                <img className="floating-image" src={sara} alt="Floating" />
-                <p>Location</p>
-            </div>
-
-            <div className="tabs-container">
-                
-
-                <h1>Dashboard</h1>
-            </div>
-            
-        </div>
-    );
-
+      <div className="tabs-container">
+        <ul>
+          <a href="//" className="dashboard-button">
+            Dashboard
+          </a>
+          <a href="//" className="reviews-button">
+            Book Ride
+          </a>
+          <a href="//" className="reviews-button">
+            Offer Ride
+          </a>
+          <a href="//" className="reviews-button">
+            Future Rides
+          </a>
+          <a href="//" className="reviews-button">
+            Reviews
+          </a>
+        </ul>
+      </div>
+    </div>
+  );
 }
 
-export default Dashboard
+export default Dashboard;
