@@ -5,10 +5,14 @@ import sara from "../images/sara.jpg";
 function Dashboard() {
 
     return (
-        <div className="dashboard-page">
+        <div className="tab-container">
             <div className="image-container">
                 <img className="floating-image" src={sara} alt="Floating" />
             </div>
+            <div className="text-container">
+                <p>Greenacres</p>
+            </div>
+            
         </div>
     );
 

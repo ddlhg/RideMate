@@ -1,0 +1,17 @@
+.image-container {
+    width: 250px;
+    height: 250px;
+    border-color: red;
+    padding: 30px 34px;
+}
+
+.tab-container{
+    width: 320px;
+    height: 916px;
+    flex-shrink: 0;
+    background-color:white;
+}
+
+p{
+    color:black;
+}
