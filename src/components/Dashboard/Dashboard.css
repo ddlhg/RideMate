@@ -27,6 +27,7 @@
 }
 
 .tabs-container,h1{
+    border:none;
     text-align: center;
     font-family: Inter;
     font-size: 32px;
