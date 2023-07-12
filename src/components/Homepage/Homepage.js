@@ -1,7 +1,7 @@
 import React from "react";
 import "./Homepage.css";
-import ridesharedriver from "./images/rideshare-driver-handsome.png";
-import rideshareuser from "./images/rideshare-user.png";
+import ridesharedriver from "../images/rideshare-driver-handsome.png";
+import rideshareuser from "../images/rideshare-user.png";
 function Homepage() {
   return (
     <div className="whole-page">
