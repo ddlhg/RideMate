@@ -1,37 +1,49 @@
 .image-container {
-    width: 250px;
-    height: 250px;
-    border:none;
-    padding: 30px 34px;
+  width: 250px;
+  height: 250px;
+  border: none;
+  padding: 30px 34px;
 }
-.image-container,p {
-    text-align: center;
-    font-size: 20px;
-    color: black;
-}
-
-.section-container{
-    width: 320px;
-    height: 916px;
-    background-color:rgba(255, 255, 255, 0.521);
+.image-container,
+p {
+  text-align: center;
+  font-size: 20px;
+  color: black;
 }
 
-.tabs-container{
-    padding-left: 50px;
-    border: 50px solid;
+.section-container {
+  width: 320px;
+  height: 916px;
+  background-color: rgb(255, 255, 255);
 }
 
-.tabs-container,p{
-    font-size: 20px;
-    font-family: Inter;
+.tabs-container {
+  align-items: center;
+  border:solid;
+  border-color: red;
 }
 
-.tabs-container,h1{
-    border:none;
-    text-align: center;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.tabs-container,
+.dashboard-button {
+  color: #000;
+  font-family: Inter;
+  align-content: center;
+  border-color: rgb(213, 2, 255);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 50px;
+}
+
+.tabs-container,
+.button {
+  color: #000;
+  font-family: Inter;
+  align-content: center;
+  border-color: rgb(0, 255, 85);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
 }

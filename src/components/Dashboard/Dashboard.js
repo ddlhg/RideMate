@@ -15,13 +15,13 @@ function Dashboard() {
           <a href="//" className="dashboard-button">
             Dashboard
           </a>
-          <a href="//" className="reviews-button">
+          <a href="//" className="book-button">
             Book Ride
           </a>
-          <a href="//" className="reviews-button">
+          <a href="//" className="offer-button">
             Offer Ride
           </a>
-          <a href="//" className="reviews-button">
+          <a href="//" className="future-button">
             Future Rides
           </a>
           <a href="//" className="reviews-button">
