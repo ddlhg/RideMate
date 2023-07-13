@@ -1,6 +1,15 @@
 body {
-  color: #004AAD;    
-  margin:0;
+  margin: 0;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.left {
+  width: 20%;
+  background-color: rgb(255, 255, 255);
 }
 
 .image{
@@ -12,6 +21,7 @@ body {
 .image-container{
   border:none;
 }
+
 
 #small-text{
   text-align: center;
@@ -48,6 +58,17 @@ a:hover {
   background-color: #004bad00 !important;
 }
 
-.middle-column {
-  
+.column.middle {
+  width: 50%;
+}
+
+.column.right {
+  width: 20%;
+  background-color: red;
+}
+
+.page::after {
+  content: "";
+  display: table;
+  clear: both;
 }
