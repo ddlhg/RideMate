@@ -6,45 +6,32 @@
   border-color: green !important;
 }
 .image-container,
-p {
+
+#small-text{
   text-align: center;
-  font-size: 20px;
-  color: black;
+  color: #000;
+  border: none;
   font-family: Inter;
+  font-size: 20px;
   font-weight: 700;
-  border-color: black;
+}
+
+#medium-text{
+  color: #000;
+  border: none;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .section-container {
   width: 320px;
-  height:auto;
   background-color: rgb(255, 255, 255);
 }
 
 .tabs-container {
   border: solid;
-  border-color: red;
-}
-
-.tabs-container,
-.dashboard-button {
-  color: #000;
-  font-family: Inter;
-  border-color: rgb(86, 2, 255);
-  font-size: 32px;
-  font-weight: 700;
-}
-
-.tabs-container,
-.button {
-  color: #000;
-  font-family: Inter;
-  align-content: center;
-  text-align: center;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: normal;
-  
+  border-color: rgb(0, 255, 4);
 }
 
 .dashboard-container{
