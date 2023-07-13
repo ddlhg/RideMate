@@ -1,5 +1,5 @@
 import React from "react";
-import "./Dashboard.css";
+import "./BookRide.css";
 
 function BookRide(){
     return(<div></div>)

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Registerpage.css";
+import "./Register.css";
 
 function Registerpage() {
   return (
