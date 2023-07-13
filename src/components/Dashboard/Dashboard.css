@@ -1,17 +1,11 @@
-.image-container {
-  width: 250px;
-  height: 250px;
-  border: none;
-  padding: 30px 34px;
-}
-
 .image{
   border-radius: 25px;
-  width: 100%;
+  width: 200px;
 }
 
-.section-container{
-  border-radius: 25px;
+.image-container{
+  border:green solid;
+  align-items: center;
 }
 
 #small-text{
@@ -32,9 +26,9 @@
 }
 
 .section-container {
-  width: 320px;
-  height: auto;
+  width: 350px;
   background-color: rgb(255, 255, 255);
+  border-radius: 25px;
 }
 
 .button-container{
