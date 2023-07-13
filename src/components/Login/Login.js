@@ -1,9 +1,8 @@
 import React from 'react';
 import './Login.css';
-import rideshareuser from "./images/rideshare-user.png";
+import rideshareuser from "../images/rideshare-user.png";
 
 function Login() {
-
     return (
         <div className="login-page">
             <div className="image-container">
