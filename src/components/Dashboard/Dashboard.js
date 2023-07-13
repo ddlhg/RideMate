@@ -7,36 +7,36 @@ function Dashboard() {
     <div className="page">
       <div className="section-container">
         <div className="image-container">
-          <img className="floating-image" src={sara} alt="Floating" />
+          <img className="image" src={sara} />
             <p id='small-text'>Greenacres</p>
         </div>
 
         <div className="tabs-container">
           <ul>
-            <div className="dashboard-container">
+            <div className="button-container">
               <a href='/dashboard' className="dashboard-button" id='medium-text'>
                 Dashboard
               </a>
             </div>
-            <div className="book-container">
+            <div className="button-container">
               <a href='/BookRide' className="book-button" id='medium-text'>
                 Book Ride
               </a>
             </div>
 
-            <div className="offer-container">
+            <div className="button-container">
               <a href="//" className="offer-button" id='medium-text'>
                 Offer Ride
               </a>
             </div>
 
-            <div className="future-container">
+            <div className="button-container">
               <a href="//" className="future-button" id='medium-text'>
                 Future Rides
               </a>
             </div>
 
-            <div className="reviews-container">
+            <div className="button-container">
               <a href="//" className="reviews-button" id='medium-text'>
                 Reviews
               </a>

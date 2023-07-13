@@ -3,7 +3,15 @@
   height: 250px;
   border: none;
   padding: 30px 34px;
-  border-color: green !important;
+}
+
+.image{
+  border-radius: 25px;
+  width: 100%;
+}
+
+.section-container{
+  border-radius: 25px;
 }
 
 #small-text{
@@ -25,36 +33,15 @@
 
 .section-container {
   width: 320px;
+  height: auto;
   background-color: rgb(255, 255, 255);
 }
 
-.tabs-container {
-  border: solid;
-  border-color: rgb(0, 255, 4);
+.button-container{
+  padding: 20px;
 }
 
-.dashboard-container{
-    border: orange solid;
-    padding: 20px;
+a:hover {
+  background-color: #004badca;
+  color: #fff !important;
 }
-
-.book-container{
-    border: orange solid;
-    padding: 20px;
-}
-
-.offer-container{
-    border: orange solid;
-    padding: 20px;
-}
-
-.future-container{
-    border: orange solid;
-    padding: 20px;
-}
-
-.reviews-container{
-    border: orange solid;
-    padding: 20px;
-}
-
