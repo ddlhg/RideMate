@@ -1,6 +1,11 @@
+body {
+  color: #004AAD;    
+}
+
 .image{
   border-radius: 25px;
   width: 200px;
+  margin-left: 50px;
 }
 
 .image-container{

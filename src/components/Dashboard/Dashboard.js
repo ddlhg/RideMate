@@ -14,18 +14,18 @@ function Dashboard() {
         <div className="tabs-container">
           <div className="button-container">
             <a href="/dashboard" className="dashboard-button" id="medium-text">
-              <i class="fa-solid fa-person-simple"></i> Dashboard
+            <i class="fa-solid fa-user"></i>  Dashboard
             </a>
           </div>
           <div className="button-container">
             <a href="/book-ride" className="book-button" id="medium-text">
-              <i class="fa-solid fa-circle-check fa-sm"></i> Book Ride
+              <i class="fa-solid fa-circle-check fa-sm"></i>  Book Ride
             </a>
           </div>
 
           <div className="button-container">
             <a href="/offer-ride" className="offer-button" id="medium-text">
-              <i class="fa-solid fa-hand-holding-hand"></i> Offer Ride
+              <i class="fa-solid fa-hand-holding-hand"></i>  Offer Ride
             </a>
           </div>
 
