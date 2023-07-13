@@ -4,8 +4,7 @@
 }
 
 .image-container{
-  border:green solid;
-  align-items: center;
+  border:none;
 }
 
 #small-text{
@@ -32,10 +31,14 @@
 }
 
 .button-container{
-  padding: 20px;
+  padding: 30px;
+}
+
+.button-container:hover{
+  background-color: #004bad91;
 }
 
 a:hover {
-  background-color: #004badca;
   color: #fff !important;
+  background-color: #004bad00 !important;
 }
