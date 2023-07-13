@@ -6,7 +6,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import firebase from "firebase/compat/app";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import Registerpage from './components/Registerpage';
+import Register from './components/Register';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard/Dashboard';
 import Reviews from './components/Reviews/Reviews';
