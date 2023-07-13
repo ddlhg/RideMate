@@ -20,19 +20,18 @@ p {
 }
 
 .tabs-container {
-  align-items: center;
   border: solid;
+  border-color: red !important;
+  align-items: center;
 }
 
 .tabs-container,
 .dashboard-button {
   color: #000;
   font-family: Inter;
-  border-color: rgb(255, 2, 162);
+  border-color: rgb(86, 2, 255);
   font-size: 32px;
   font-weight: 700;
-  line-height: normal;
-  padding-top: 50px;
 }
 
 .tabs-container,
@@ -44,4 +43,31 @@ p {
   font-size: 32px;
   font-weight: 700;
   line-height: normal;
+  
 }
+
+.dashboard-container{
+    border: orange solid;
+    padding: 20px;
+}
+
+.book-container{
+    border: orange solid;
+    padding: 20px;
+}
+
+.offer-container{
+    border: orange solid;
+    padding: 20px;
+}
+
+.future-container{
+    border: orange solid;
+    padding: 20px;
+}
+
+.reviews-container{
+    border: orange solid;
+    padding: 20px;
+}
+
