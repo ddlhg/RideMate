@@ -5,7 +5,7 @@ import sara from "../images/sara.jpg";
 function Dashboard() {
   return (
     <div className="page">
-      <div className="section-container">
+      <div className="left-column">
         <div className='image-container'>
           <img className="image"  src={sara}/>
           <p id="small-text"> <i class="fa-solid fa-location-dot fa-sm"></i> Greenacres </p>
@@ -41,6 +41,9 @@ function Dashboard() {
             </a>
           </div>
         </div>
+      </div>
+      <div className="middle-column">
+        <p>hello</p>
       </div>
     </div>
   );

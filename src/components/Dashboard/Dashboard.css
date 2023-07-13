@@ -1,5 +1,6 @@
 body {
   color: #004AAD;    
+  margin:0;
 }
 
 .image{
@@ -29,10 +30,9 @@ body {
   font-weight: 700;
 }
 
-.section-container {
+.left-column {
   width: 350px;
   background-color: rgb(255, 255, 255);
-  border-radius: 25px;
 }
 
 .button-container{
@@ -46,4 +46,8 @@ body {
 a:hover {
   color: #fff !important;
   background-color: #004bad00 !important;
+}
+
+.middle-column {
+  
 }
