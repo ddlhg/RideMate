@@ -20,12 +20,12 @@ body {
 
 .small-images, #fau{
   width: 200px;
-  margin-left: 10px;
+  margin-left: 400px;
 }
 
 .small-images, #car{
   width: 200px;
-  margin-left: 10px;
+  margin-left: 200px;
 }
 
 .image-container{
@@ -70,6 +70,7 @@ body {
 
 .text-container{
   margin: 20px;
+  margin-top: 30px;
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.727);
   color:black;
@@ -101,14 +102,12 @@ a:hover {
 
 .column.middle {
   width: 40%;
-  border:green solid;
   margin-left: 20px;
 }
 
 .column.right {
   width: 30%;
-  border:green solid;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .page::after {

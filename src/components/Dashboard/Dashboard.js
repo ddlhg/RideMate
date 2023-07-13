@@ -51,7 +51,8 @@ function Dashboard() {
           <p id='medium-text'>About me</p>
           <p id='small-text'>Hey there! I'm Sara, a passionate adventurer. I like exploring hidden gems in my own city. I am a junior at FAU studying psychology. You'll find me volunteering at local organizations.</p>
           <p id='medium-text'>School</p>
-          <p id='small-text'>FAU, Boca Raton <img className='small-images' id='fau' src={fauLogo}/></p>
+          <p id='small-text'>FAU, Boca Raton</p>
+          <img className='small-images' id='fau' src={fauLogo}/>
         </div>
       </div>
       
@@ -61,7 +62,7 @@ function Dashboard() {
           <p id='small-text'><strong>Make: </strong> Toyota</p>
           <p id='small-text'><strong>Model: </strong> Corolla</p>
           <p id='small-text'><strong>Plates: </strong> DMK-208</p>
-          <p id='small-text'><strong>Color: </strong> Red</p>
+          <p id='small-text'><strong>Color: </strong> Red </p>
           <img className='small-images' id='car' src={redCar}/>
         </div>
 
