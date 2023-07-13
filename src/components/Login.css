@@ -8,7 +8,6 @@
 .image-container {
     flex: 1;
     padding: 2rem;
-    border: 2px solid #000;
     border-radius: 10px;
 }
 
@@ -25,6 +24,12 @@
 h2 {
     text-align: center;
     margin-bottom: 2rem;
+    color: white;
+}
+
+.input-group{
+    color: white;
+    font-size: 19px;
 }
 
 input {
@@ -38,16 +43,29 @@ input {
     justify-content: space-between;
 }
 
-a {
+.login-button{
     display: inline-block;
-    padding: 0.5rem 1rem;
-    border: 1px solid #000;
+    padding: 1rem 3rem;
+    border: 1px solid #ffffff;
     border-radius: 10px;
     text-decoration: none;
-    color: #000;
+    color: #fff8f8;
+    transition-duration: 0.4s;
+    font-size: 19px;
+
 }
 
-    a:hover {
-        background-color: blue;
-        color: #fff;
+    .login-button:hover {
+        background-color: white;
+        color: #000000;
+    }
+
+
+    .create-account-link{
+        font-size: 16px;
+    }
+
+    .signup-button{
+        color: white;
+        text-decoration: none;
     }

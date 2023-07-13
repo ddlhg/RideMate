@@ -36,6 +36,7 @@ b{
     border-radius: 5px;
     padding: 10px 5px;
     padding-right: 2px;
+    background-color: rgb(204, 204, 204);
 }
 .submit-button{
     font-size: 15px;
@@ -53,4 +54,13 @@ b{
     background-color: white;
     font-weight: bold;
     cursor: pointer;
+}
+
+.login-link{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
