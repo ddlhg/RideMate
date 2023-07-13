@@ -18,10 +18,14 @@ body {
   margin-left: 50px;
 }
 
-#fau-logo{
-  border-radius: 25px;
-  width: 150px;
-  margin-left: 80px;
+.small-images, #fau{
+  width: 200px;
+  margin-left: 10px;
+}
+
+.small-images, #car{
+  width: 200px;
+  margin-left: 10px;
 }
 
 .image-container{
