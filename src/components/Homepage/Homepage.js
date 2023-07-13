@@ -14,8 +14,9 @@ function Homepage() {
         <img src={ridesharedriver} alt="rideshare-driver" className="driver" />
       </div>
       <div className="safety-section">
+        <h1 className="safety-title">Safety</h1>
         <div className="statistics-section">
-          <p>
+          <p id="safety">
             Between 2017 and 2019, Lyft received 10 reports of fatal physical
             assaults and 1,096 reports of sexual assault
           </p>
@@ -26,8 +27,31 @@ function Homepage() {
           </p>
         </div>
         <div className="safety-picture">
-        <img src={rideshareuser} alt="rideshare-user"/>
+          <img src={rideshareuser} alt="rideshare-user" />
         </div>
+      </div>
+      <div className="school-section">
+        <h1 className="school-section-title">Schools That We Work With</h1>
+        <div className="school-list">
+          <ul>
+            <li>Florida Atlantic Univerity</li>
+            <li>Palm Beach State College</li>
+            <li>Florida Atlantic University High School</li>
+          </ul>
+        </div>
+      </div>
+      <div className="footer-section">
+        <footer>
+        <h1 className="footer-title">Contact Us</h1>
+        <div className="contact-footer-column">
+          <h3>Developers</h3>
+          <p className="dev-name">Gikai Andrews</p>
+          <p className="dev-name">Antonio Crissy</p>
+          <p className="dev-name">Ameer Khan</p>
+          <p className="dev-name">Jerusha Stewart</p>
+          <p className="dev-name">Daniela Herrera</p>
+        </div>
+        </footer>
       </div>
     </div>
   );
