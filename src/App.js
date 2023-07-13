@@ -6,10 +6,13 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import firebase from "firebase/compat/app";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import Register from './components/Register';
+import Register from './components/Register/Register';
 import Login from './components/Login/Login';
 import Dashboard from './components/Dashboard/Dashboard';
 import Reviews from './components/Reviews/Reviews';
+import BookRide from './components/BookRide/BookRide';
+import OfferRide from './components/OfferRide/OfferRide';
+import FutureRides from './components/FutureRides/FutureRides';
 
 function App() {
   // Import the functions you need from the SDKs you need
@@ -47,7 +50,7 @@ const analytics = getAnalytics(app);
           <Route exact path='/dashboard' Component={Dashboard}/>
           <Route exact path='/book-ride' Component={BookRide}/>
           <Route exact path='/offer-ride' Component={OfferRide}/>
-          <Route exact path='/future-rides' Component={FutureRide}/>
+          <Route exact path='/future-rides' Component={FutureRides}/>
           <Route exact path='/reviews' Component={Reviews}/>
         </Routes>
       </Router>
