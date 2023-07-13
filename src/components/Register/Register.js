@@ -1,7 +1,7 @@
 import React from "react";
 import "./Register.css";
 
-function Registerpage() {
+function Register() {
   return (
     <div className="register-page">
       <form className="register-form">
@@ -29,4 +29,4 @@ function Registerpage() {
   );
 }
 
-export default Registerpage;
+export default Register;
