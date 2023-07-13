@@ -1,0 +1,60 @@
+.image-container {
+  width: 250px;
+  height: 250px;
+  border: none;
+  padding: 30px 34px;
+  border-color: green !important;
+}
+
+#small-text{
+  text-align: center;
+  color: #000;
+  border: none;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#medium-text{
+  color: #000;
+  border: none;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section-container {
+  width: 320px;
+  background-color: rgb(255, 255, 255);
+}
+
+.tabs-container {
+  border: solid;
+  border-color: rgb(0, 255, 4);
+}
+
+.dashboard-container{
+    border: orange solid;
+    padding: 20px;
+}
+
+.book-container{
+    border: orange solid;
+    padding: 20px;
+}
+
+.offer-container{
+    border: orange solid;
+    padding: 20px;
+}
+
+.future-container{
+    border: orange solid;
+    padding: 20px;
+}
+
+.reviews-container{
+    border: orange solid;
+    padding: 20px;
+}
+
