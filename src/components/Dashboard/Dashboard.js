@@ -1,14 +1,15 @@
 import React from "react";
 import "./Dashboard.css";
 import sara from "../images/sara.jpg";
+import fauLogo from "../images/fau-logo.png";
 
 function Dashboard() {
   return (
     <div className="page">
       <div className="column left">
         <div className='image-container'>
-          <img className="image"  src={sara}/>
-          <p id="small-text"> <i class="fa-solid fa-location-dot fa-sm"></i> Greenacres </p>
+          <img className="profile-image"  src={sara}/>
+          <p id="location-text"> <i class="fa-solid fa-location-dot fa-sm"></i> Greenacres </p>
         </div>
 
         <div className="tabs-container">
@@ -44,12 +45,30 @@ function Dashboard() {
       </div>
 
       <div className="column middle">
-        <h1>Sara's Profile</h1>
-        <p>middle section</p>
+        <h1 id='large-text'>Sara Hernandez</h1>
+        <div className="text-container">
+          <p id='medium-text'>About me</p>
+          <p id='small-text'>Hey there! I'm Sara, a passionate adventurer. I like exploring hidden gems in my own city. I am a junior at FAU studying psychology. You'll find me volunteering at local organizations.</p>
+          <p id='medium-text'>School</p>
+          <p id='small-text'>FAU, Boca Raton <img id='fau-logo' src={fauLogo}/></p>
+        </div>
       </div>
       
       <div className="column right">
-        <p>right section</p>
+        <div className="text-container">
+          <p id='medium-text'>Car description</p>
+          <p id='small-text'><strong>Make: </strong> Toyota</p>
+          <p id='small-text'><strong>Model: </strong> Corolla</p>
+          <p id='small-text'><strong>Plates: </strong> DMK-208</p>
+          <p id='small-text'><strong>Color: </strong> Red</p>
+          <img id='fau-logo' src={fauLogo}/>
+        </div>
+
+        <div className="text-container">
+          <p id='medium-text'>Contact me</p>
+          <p id='small-text'><strong>Email: </strong> sarahernan8@fau.edu</p>
+          <p id='small-text'><strong>Instagram: </strong> @hernan_sara</p>
+        </div>
       </div>
     </div>
   );

@@ -12,18 +12,23 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-.image{
+.profile-image{
   border-radius: 25px;
   width: 200px;
   margin-left: 50px;
+}
+
+#fau-logo{
+  border-radius: 25px;
+  width: 150px;
+  margin-left: 80px;
 }
 
 .image-container{
   border:none;
 }
 
-
-#small-text{
+#location-text{
   text-align: center;
   color: #000;
   border: none;
@@ -32,12 +37,41 @@ body {
   font-weight: 700;
 }
 
+#small-text{
+  text-align: left;
+  color: #000;
+  border: none;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 450;
+}
+
 #medium-text{
   color: #000;
   border: none;
   font-family: Inter;
   font-size: 32px;
   font-weight: 700;
+}
+
+#large-text{
+  padding-left: 30px;
+  text-align: left;
+  color: #fffbfb;
+  border: none;
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.text-container{
+  margin: 20px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.727);
+  color:black;
+  border:10px;
+  border-color: rgb(255, 0, 0);
+  border-radius: 25px;
 }
 
 .left-column {
@@ -64,7 +98,6 @@ a:hover {
 
 .column.right {
   width: 20%;
-  background-color: red;
 }
 
 .page::after {
