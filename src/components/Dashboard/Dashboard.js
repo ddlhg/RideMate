@@ -8,18 +8,18 @@ function Dashboard() {
       <div className="section-container">
         <div className="image-container">
           <img className="floating-image" src={sara} alt="Floating" />
-          <p>Location</p>
+            <p>Greenacres</p>
         </div>
 
         <div className="tabs-container">
           <ul>
             <div className="dashboard-container">
-              <a href="//" className="dashboard-button">
+              <a href='/dashboard' className="dashboard-button">
                 Dashboard
               </a>
             </div>
             <div className="book-container">
-              <a href="//" className="book-button">
+              <a href='/BookRide' className="book-button">
                 Book Ride
               </a>
             </div>

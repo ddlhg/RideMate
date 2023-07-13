@@ -9,6 +9,7 @@ import { getAnalytics } from "firebase/analytics";
 import Registerpage from './components/Registerpage';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard/Dashboard';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
   // Import the functions you need from the SDKs you need
@@ -44,6 +45,10 @@ const analytics = getAnalytics(app);
           <Route exact path='/register' Component={Registerpage}/>
           <Route exact path='/login' Component={Login}/>
           <Route exact path='/dashboard' Component={Dashboard}/>
+          <Route exact path='/book-ride' Component={Dashboard}/>
+          <Route exact path='/offer-ride' Component={Dashboard}/>
+          <Route exact path='/future-rides' Component={Dashboard}/>
+          <Route exact path='/reviwes' Component={Dashboard}/>
         </Routes>
       </Router>
     </>

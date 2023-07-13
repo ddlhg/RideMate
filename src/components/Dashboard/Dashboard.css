@@ -3,6 +3,7 @@
   height: 250px;
   border: none;
   padding: 30px 34px;
+  border-color: green !important;
 }
 .image-container,
 p {
@@ -11,18 +12,18 @@ p {
   color: black;
   font-family: Inter;
   font-weight: 700;
+  border-color: black;
 }
 
 .section-container {
   width: 320px;
-  height: 916px;
+  height:auto;
   background-color: rgb(255, 255, 255);
 }
 
 .tabs-container {
   border: solid;
-  border-color: red !important;
-  align-items: center;
+  border-color: red;
 }
 
 .tabs-container,
