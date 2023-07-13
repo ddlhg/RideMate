@@ -7,7 +7,7 @@ import firebase from "firebase/compat/app";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import Register from './components/Register';
-import Login from './components/Login';
+import Login from './components/Login/Login';
 import Dashboard from './components/Dashboard/Dashboard';
 import Reviews from './components/Reviews/Reviews';
 
@@ -42,13 +42,13 @@ const analytics = getAnalytics(app);
             <Homepage/>
             </>
           }/>
-          <Route exact path='/register' Component={Registerpage}/>
+          <Route exact path='/register' Component={Register}/>
           <Route exact path='/login' Component={Login}/>
           <Route exact path='/dashboard' Component={Dashboard}/>
-          <Route exact path='/book-ride' Component={Dashboard}/>
-          <Route exact path='/offer-ride' Component={Dashboard}/>
-          <Route exact path='/future-rides' Component={Dashboard}/>
-          <Route exact path='/reviwes' Component={Dashboard}/>
+          <Route exact path='/book-ride' Component={BookRide}/>
+          <Route exact path='/offer-ride' Component={OfferRide}/>
+          <Route exact path='/future-rides' Component={FutureRide}/>
+          <Route exact path='/reviews' Component={Reviews}/>
         </Routes>
       </Router>
     </>

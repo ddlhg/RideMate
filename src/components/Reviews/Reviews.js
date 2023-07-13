@@ -1,6 +1,8 @@
 import React from "react";
 import "./Reviews.css";
 
-function Reviews(props) {}
+function Reviews() {
+    return(<div></div>)
+}
 
 export default Reviews;
