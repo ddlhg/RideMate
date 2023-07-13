@@ -9,7 +9,7 @@ import { getAnalytics } from "firebase/analytics";
 import Registerpage from './components/Registerpage';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard/Dashboard';
-import Dashboard from './components/Dashboard/Dashboard';
+import Reviews from './components/Reviews/Reviews';
 
 function App() {
   // Import the functions you need from the SDKs you need
