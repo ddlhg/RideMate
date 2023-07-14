@@ -8,11 +8,11 @@ The project was built using HTML and CSS, with the team utilizing various framew
 
 ## Hosting
 
-!!
+????????????????????????????????
 
 ## Project Management
 
-explain how Trello helped with the project!!
+explain how Trello helped with the project?????????????????????
 
 ## Collaboration
 
@@ -23,16 +23,17 @@ Git, a free, open-source distributed version control system, was used by the tea
 RideMate is a successful example of a Scrum-based front-end project built using modern web development technologies and tools. By leveraging Trello and Git, the team was able to effectively collaborate, manage, and host the project, resulting in a high-quality application.
 
 ### Instructions
-- do npm install
+- npm install
 - npm install firebase
-- npm run start
+- npm start
 
 
 ### Project Team 13
 homepage picture!!
 
 ### Trello
-picture!!
+<img width="852" alt="image" src="https://github.com/ddlhg/RideMate/assets/116442206/4659941c-9cbe-452c-927c-6b5bf3166634">
+
 
 ### Collaborators
 
