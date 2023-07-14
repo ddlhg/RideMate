@@ -1,6 +1,8 @@
 import React from 'react';
 import './Login.css';
 import rideshareuser from "../images/rideshare-user.png";
+import './login.html';
+import authentication from './authentication'
 
 function Login() {
     return (
@@ -23,7 +25,7 @@ function Login() {
                         <input type="password" id="password" placeholder='Password'/>
                     </div>
                     <div className="button-group">
-                        <a href="//" className="login-button">Login</a>
+                        <a async="//" className="login-button">Login</a>
                         <p className='create-account-link'>If you want to make an account click<a href="/register" className="signup-button"> here</a></p>
                     </div>
                 </form>

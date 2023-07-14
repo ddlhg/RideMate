@@ -2,6 +2,7 @@ import React,{useEffect} from 'react';
 import * as firebaseui from 'firebaseui';
 import 'firebaseui/dist/firebaseui.css';
 import firebase from 'firebase/compat/app';
+import Login from './components/Login/Login';
 
 const authentication = (props) => {
     useEffect(()=>{
