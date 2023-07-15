@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import './Navbar.css';
-=======
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
->>>>>>> DH
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -40,27 +34,16 @@ function Navbar() {
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-<<<<<<< HEAD
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              {/* <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-=======
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
->>>>>>> DH
                 Home
-              </Link> */}
+              </Link> 
             </li>
             <li className="nav-item">
               <Link
-<<<<<<< HEAD
-                // to='/safety'
-                className='nav-links'
-=======
                 to="/safety"
                 className="nav-links"
->>>>>>> DH
                 onClick={closeMobileMenu}
               >
                 <a href='#safety'>Safety</a>

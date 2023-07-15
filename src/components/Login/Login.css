@@ -41,13 +41,28 @@ input {
 a {
   display: inline-block;
   padding: 0.5rem 1rem;
-  border: 1px solid #000;
   border-radius: 10px;
   text-decoration: none;
-  color: #000;
 }
 
 a:hover {
   background-color: #004aad;
   color: #fff;
+}
+
+.login-button{
+  background-color: transparent;
+  border-radius: 12px;
+  padding: 1rem 3.5rem;
+  font-size: 18px;
+  color: white;
+  border-color: white;
+}
+
+.input-group{
+  border-radius:12px;
+}
+
+.create-account-text{
+  font-size: 18px;
 }
