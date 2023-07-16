@@ -21,15 +21,18 @@ function Homepage() {
         <div className="statistics-section">
           <img src={rideshareuser} className="safety-picture" alt="rideshare-user" />
           <div className='text1'>
-            <p>
+            <p id='text'>
               Between 2017 and 2019, Lyft received 10 reports of fatal physical
               assaults and 1,096 reports of sexual assault
             </p>
-            <p>Average Uber prices soared by 92% from 2018 to 2021.</p>
+          </div>
+
+          <div  className='text2'>
+            <p id='text'>Average Uber prices soared by 92% from 2018 to 2021.</p>
           </div>
           
-          <div className='text2'>
-            <p >
+          <div className='text3'>
+            <p id='text'>
               Americans who make $75,000 a year are twice as likely as those
               earning less than $30,000 per year to have used ridesharing services
             </p>
