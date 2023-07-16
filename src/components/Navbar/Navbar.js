@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../images/logo.png"; 
 
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -25,17 +26,17 @@ function Navbar() {
   window.addEventListener("resize", showButton);
 
   return (
-    <>
       <nav className="navbar">
         <div className="navbar-container">
-        <img className="logo" src={logo}/>
-          <Link to="/" className="navbar-title" onClick={closeMobileMenu}>
-            RideMate
-          </Link>
+          <img className="logo" src={logo}/>
+            <Link to="/" className="navbar-title" onClick={closeMobileMenu}>
+              RideMate
+            </Link>
 
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
+
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             
             <li className="nav-item">
@@ -47,9 +48,16 @@ function Navbar() {
             </li>
             
             <li className="nav-item">
-              <Link to="/schools" className="nav-links" onClick={closeMobileMenu} >
+
               <a href="#schools">Schools</a>
-              </Link>              
+              <Link
+                to="/sign-up"
+                className="nav-links-mobile"
+                onClick={closeMobileMenu}
+              >
+                Sign Up
+              </Link>
+
             </li>
           </ul>
           <Link to="/register">
@@ -60,8 +68,7 @@ function Navbar() {
           </Link>
         </div>
       </nav>
-    </>
-  );
+    );
 }
 
 export default Navbar;
