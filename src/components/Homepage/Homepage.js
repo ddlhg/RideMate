@@ -41,20 +41,19 @@ function Homepage() {
           </div>
 
         </div>
-<<<<<<< HEAD
-      </div>  
+
 
       <div id='schools' className="schools-section">
         <h1 className="school-title">Schools That We Work With</h1>
         
-=======
+
         <div className="safety-picture">
           <img src={rideshareuser} alt="rideshare-user" />
         </div>
       </div>
       <div className="school-section">
         <h1 className="school-section-title" id="schools">Schools That We Work With</h1>
->>>>>>> f807089fc15bd382de34cdfa445e381967064383
+
         <div className="school-list">
 
           <div className="logo-container">
