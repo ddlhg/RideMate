@@ -2,6 +2,7 @@ import React from "react";
 import "./Homepage.css";
 import ridesharedriver from "../images/rideshare-driver-handsome.png";
 import rideshareuser from "../images/rideshare-user.png";
+import faulogo from "../images/fau-logo.png";
 
 function Homepage() {
   return (
@@ -15,7 +16,7 @@ function Homepage() {
         <img src={ridesharedriver} alt="rideshare-driver" className="driver" />
       </div>
       
-      <div className="safety-section">
+      <div id='safety' className="safety-section">
         <h1 className="safety-title">Safety</h1>
         
         <div className="statistics-section">
@@ -42,15 +43,17 @@ function Homepage() {
       </div>
 
       <div id='schools' className="school-section">
-        <h1 className="school-section-title">Schools That We Work With</h1>
+        <h1 className="school-title">Schools That We Work With</h1>
         <div className="school-list">
+        <img src={faulogo} className="fau-logo" alt="fau-logo" />
           <ul>
-            <li>Florida Atlantic Univerity</li>
-            <li>Palm Beach State College</li>
+            <li >Florida Atlantic Univerity</li>
+            <li >Palm Beach State College</li>
             <li>Florida Atlantic University High School</li>
           </ul>
         </div>
       </div>
+
       <div className="footer-section">
         <footer>
         <h1 className="footer-title">Contact Us</h1>
