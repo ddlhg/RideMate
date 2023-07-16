@@ -48,7 +48,14 @@ function Dashboard() {
         </div>
 
         <div className="tabs-container">
+        <div className="button-container">
+            
+            <a href="/" className="signout-button" id="medium-text" onClick={handleLogout}>
+            <i class="fa-solid fa-user"></i> Sign Out
+            </a>
+          </div>
           <div className="button-container">
+            
             <a href="/dashboard" className="dashboard-button" id="medium-text">
             <i class="fa-solid fa-user"></i>  Dashboard
             </a>
