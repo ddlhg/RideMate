@@ -6,17 +6,14 @@ import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../firebase";
 import { useNavigate } from "react-router-dom";
 
+
 function Dashboard() {
   const [inputText, setInputText] = useState("");
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     
     setInputText(e.target.value);
-  };
-}
 
-
-function Dashboard() {
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -127,21 +124,5 @@ function Dashboard() {
   );
 }
 
-
-function Example() {
-  const [inputText, setInputText] = useState("");
-
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    
-    setInputText(e.target.value);
-  };
-
-  return (
-    <div>
-      <input type="text" onChange={handleChange} value={inputText} />
-      <p>Your input: {inputText}</p>
-    </div>
-  );
-};
 
 export default Dashboard;
