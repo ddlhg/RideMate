@@ -8,27 +8,36 @@ body{
 }
 
 .intro-text{
-    color: white;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    padding:50px;
+    border:#004bad6f solid;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.443);
     text-align: center;
-    font-size: 23px;
-}
-
-hr.solid{
-    border-top: 3px solid #bbb;
-
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .driver{
     padding-top: 12px;
+    margin-left: 5%;
+    border-radius: 50px;
 }
 
 .safety-section{
-    color: white;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.759);
     align-items: center;
 }
 
 .safety-title{
     text-align: center;
+    color: black;
+    font-weight: 800;
 }
 
 .statistics-section{
@@ -38,28 +47,76 @@ hr.solid{
     padding-top: 35px;
 }
 
+#text{
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+.text1{
+    margin-top: 30px;
+    padding:20px;
+    width: 20%;
+    height: 20%;
+    margin-left: 2%;
+}
+
+.text2{
+    margin-top: 80px;
+    padding:20px;
+    width: 25%;
+    height: 20%;
+    margin-left: 2%;
+}
+
+.text3{
+    margin-top: 30px;
+    padding:20px;
+    width: 25%;
+    height: 20%;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
 .safety-picture{
+    margin-left: 3%;
+    border-radius: 50px;
+    width: 25%;
+}
+
+.school-title{
+    padding-top: 50px;
+    margin-left: 37%;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+
+.schools-section{
+    padding-bottom: 50px;
+    padding-top: 10px;
+    background-color: #004AAD;
     align-items: center;
 }
-<<<<<<< HEAD
-
-
-.school-section{
-    background-color: white;
-    height: 200px;
-    width: 100%;
-}
-.school-section-title{
-    text-align: center;
-    color: black;
-    font-weight:lighter ;
+.school-list{
+    font-size: 23px;
+    display: flex;
 }
 
-.school-list,li{
-    color: rgb(0, 0, 0);
-    font-size: 22px;
-    text-align: center;
-    list-style-type: none;
+.logo-container{
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.fau-logo{
+    margin-top: 20px;
+    width: 200px;
+    padding: 50px;
+}
+
+.pbsc-logo{
+    padding: 50px;
+    width: 200px;
 }
 
 .footer-section{
@@ -78,8 +135,6 @@ hr.solid{
 .dev-name{
     font-size: 18px;
 }
-
-
 
 .footer-title{
     text-align: center;
