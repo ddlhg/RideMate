@@ -16,7 +16,7 @@ body{
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.443);
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -50,7 +50,27 @@ body{
     display: flex;
     text-align: center;
     padding-top: 35px;
+}
+
+.text1{
     border: green solid;
+    padding: 20px;
+    font-size: 25px;
+    width: 20%;
+    height: 20%;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+.text2{
+    color:white;
+    border: rgb(128, 0, 0) solid;
+    padding: 20px;
+    font-size: 25px;
+    width: 20%;
+    height: 20%;
+    margin-left: 5%;
+    margin-right: 3%;
 }
 
 .safety-picture{

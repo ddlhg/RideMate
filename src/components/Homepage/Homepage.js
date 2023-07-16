@@ -17,26 +17,27 @@ function Homepage() {
       
       <div className="safety-section">
         <h1 className="safety-title">Safety</h1>
+        
         <div className="statistics-section">
           <img src={rideshareuser} className="safety-picture" alt="rideshare-user" />
-          <div>
-            <p id="safety-text">
+          <div className='text1'>
+            <p>
               Between 2017 and 2019, Lyft received 10 reports of fatal physical
               assaults and 1,096 reports of sexual assault
             </p>
+            <p>Average Uber prices soared by 92% from 2018 to 2021.</p>
+          </div>
           
-            <p id="safety-text">Average Uber prices soared by 92% from 2018 to 2021.</p>
-          
-              <p id="safety-text">
-                Americans who make $75,000 a year are twice as likely as those
-                earning less than $30,000 per year to have used ridesharing services
-              </p>
+          <div className='text2'>
+            <p >
+              Americans who make $75,000 a year are twice as likely as those
+              earning less than $30,000 per year to have used ridesharing services
+            </p>
           </div>
 
-            
         </div>
-        
       </div>
+
       <div id='schools' className="school-section">
         <h1 className="school-section-title">Schools That We Work With</h1>
         <div className="school-list">
