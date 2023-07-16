@@ -45,11 +45,13 @@ function Homepage() {
         <h1 className="footer-title">Contact Us</h1>
         <div className="contact-footer-column">
           <h3>Developers</h3>
-          <p className="dev-name">Gikai Andrews</p>
+          
           <p className="dev-name">Antonio Crissy</p>
           <p className="dev-name">Ameer Khan</p>
-          <p className="dev-name">Jerusha Stewart</p>
           <p className="dev-name">Daniela Herrera</p>
+          <p className="dev-name">Gikai Andrews</p>
+          <p className="dev-name">Jerusha Stewart</p>
+          
         </div>
         </footer>
       </div>
