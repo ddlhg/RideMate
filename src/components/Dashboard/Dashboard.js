@@ -1,17 +1,22 @@
 import React from "react";
 import "./Dashboard.css";
 import sara from "../images/sara.jpg";
-import fauLogo from "../images/fau-logo.png";
-import redCar from "../images/red-car.png";
+import { ChangeEvent, useState } from "react";
 
 function Dashboard() {
+  const [inputText, setInputText] = useState("");
+
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    
+    setInputText(e.target.value);
+  };
   return (
     <div className="page">
       <div className="column left">
-        <div className='image-container'>
+        
           <img className="profile-image"  src={sara}/>
           <p id="location-text"> <i class="fa-solid fa-location-dot fa-sm"></i> Greenacres </p>
-        </div>
+        
 
         <div className="tabs-container">
           <div className="button-container">
@@ -49,10 +54,10 @@ function Dashboard() {
         <h1 id='large-text'>Sara Hernandez</h1>
         <div className="text-container">
           <p id='medium-text'>About me</p>
-          <p id='small-text'>Hey there! I'm Sara, a passionate adventurer. I like exploring hidden gems in my own city. I am a junior at FAU studying psychology. You'll find me volunteering at local organizations.</p>
+          <input type="text" placeholder="Introduce yourself ! " onChange={handleChange} value={inputText} />
+          <p id='small-text'>{inputText}</p>
           <p id='medium-text'>School</p>
           <p id='small-text'>FAU, Boca Raton</p>
-          <img className='small-images' id='fau' src={fauLogo}/>
         </div>
       </div>
       
@@ -61,9 +66,8 @@ function Dashboard() {
           <p id='medium-text'>Car description</p>
           <p id='small-text'><strong>Make: </strong> Toyota</p>
           <p id='small-text'><strong>Model: </strong> Corolla</p>
-          <p id='small-text'><strong>Plates: </strong> DMK-208</p>
+          <p id='small-text'><strong>Plates: </strong> DMK-28N</p>
           <p id='small-text'><strong>Color: </strong> Red </p>
-          <img className='small-images' id='car' src={redCar}/>
         </div>
 
         <div className="text-container">
@@ -72,9 +76,26 @@ function Dashboard() {
           <p id='small-text'><strong>Instagram: </strong><a href="https://www.instagram.com/" id='email'> @hernan_sara</a></p>
         </div>
       </div>
+      
     </div>
   );
 }
 
+
+function Example() {
+  const [inputText, setInputText] = useState("");
+
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    
+    setInputText(e.target.value);
+  };
+
+  return (
+    <div>
+      <input type="text" onChange={handleChange} value={inputText} />
+      <p>Your input: {inputText}</p>
+    </div>
+  );
+};
 
 export default Dashboard;
