@@ -44,31 +44,12 @@ function Navbar() {
                 <a href="#safety">Safety</a>
               </Link>
 
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
-              </Link> 
             </li>
-            <li className="nav-item">
-              {/* <Link
-                to="/safety"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              > */}
-                <a href='#safety'>Safety</a>
-              {/* </Link> */}
-            </li>
+            
             <li className="nav-item">
               <Link to="/schools" className="nav-links" onClick={closeMobileMenu} >
               <a href="#schools">Schools</a>
-              </Link>
-              <a href="#schools">Schools</a>
-              <Link
-                to="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
+              </Link>              
             </li>
           </ul>
           <Link to="/register">
