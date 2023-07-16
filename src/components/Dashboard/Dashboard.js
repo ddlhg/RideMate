@@ -13,7 +13,7 @@ function Dashboard() {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     
     setInputText(e.target.value);
-
+  }
   const navigate = useNavigate();
 
   const handleLogout = () => {
