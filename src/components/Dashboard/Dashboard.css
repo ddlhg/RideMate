@@ -15,8 +15,9 @@ body {
 
 .profile-image{
   border-radius: 25px;
-  width: 200px;
+  width: 70%;
   margin-left: 50px;
+  margin-top: 10px;
 }
 
 .small-images, #fau{
@@ -27,10 +28,6 @@ body {
 .small-images, #car{
   width: 200px;
   margin-left: 200px;
-}
-
-.image-container{
-  border:none;
 }
 
 #location-text{
@@ -115,4 +112,11 @@ a:hover {
   content: "";
   display: table;
   clear: both;
+}
+
+input{
+  border: none;
+  border-radius: 20px;
+  height: 25px;
+  background-color: white;
 }
