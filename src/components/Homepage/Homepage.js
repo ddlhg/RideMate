@@ -44,13 +44,20 @@ function Homepage() {
 
       <div id='schools' className="school-section">
         <h1 className="school-title">Schools That We Work With</h1>
-        <div className="school-list">
-        <img src={faulogo} className="fau-logo" alt="fau-logo" />
-          <ul>
-            <li >Florida Atlantic Univerity</li>
-            <li >Palm Beach State College</li>
-            <li>Florida Atlantic University High School</li>
-          </ul>
+
+        <div className="left">
+          <img src={faulogo} className="fau-logo" alt="fau-logo" />
+          
+        </div>
+
+        <div className="middle">
+          <p>Florida Atlantic Univerity</p>
+          <p>Palm Beach State College</p>
+          <p>Florida Atlantic University High School</p>
+        </div>
+
+        <div className="right">
+          <img src={faulogo} className="fau-logo" alt="fau-logo" />
         </div>
       </div>
 
