@@ -74,6 +74,25 @@
   }
 
   .nav-menu {
+<<<<<<< HEAD
+=======
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+  
+  .nav-item {
+    height: 28px;
+  }
+  
+  .nav-links {
+    color: #fff;
+>>>>>>> f807089fc15bd382de34cdfa445e381967064383
     display: flex;
     flex-direction: column;
     width: 100%;

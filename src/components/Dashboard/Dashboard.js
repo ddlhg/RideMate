@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Dashboard.css";
 import sara from "../images/sara.jpg";
+<<<<<<< HEAD
 import { ChangeEvent, useState } from "react";
 
 function Dashboard() {
@@ -10,6 +11,46 @@ function Dashboard() {
     
     setInputText(e.target.value);
   };
+=======
+import fauLogo from "../images/fau-logo.png";
+import redCar from "../images/red-car.png";
+import { onAuthStateChanged } from "firebase/auth";
+import { auth } from "../firebase";
+import { useNavigate } from "react-router-dom";
+
+function Dashboard() {
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    // eslint-disable-next-line no-undef
+    signOut(auth)
+      .then(() => {
+        // Sign-out successful.
+        navigate("/");
+        console.log("Signed out successfully");
+      })
+      .catch((error) => {
+        // An error happened.
+        console.error("Error signing out:", error);
+      });
+  };
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        // User is signed in, see docs for a list of available properties
+        const uid = user.uid;
+        console.log("uid", uid);
+      } else {
+        // User is signed out
+        console.log("user is logged out");
+      }
+    });
+
+    // Clean up the subscription to avoid memory leaks
+    return () => unsubscribe();
+  }, []);
+>>>>>>> f807089fc15bd382de34cdfa445e381967064383
   return (
     <div className="page">
       <div className="column left">
@@ -19,7 +60,14 @@ function Dashboard() {
         
 
         <div className="tabs-container">
+        <div className="button-container">
+            
+            <a href="/" className="signout-button" id="medium-text" onClick={handleLogout}>
+            <i class="fa-solid fa-user"></i> Sign Out
+            </a>
+          </div>
           <div className="button-container">
+            
             <a href="/dashboard" className="dashboard-button" id="medium-text">
             <i class="fa-solid fa-user"></i>  Dashboard
             </a>

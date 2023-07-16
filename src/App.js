@@ -5,6 +5,7 @@ import Homepage from './components/Homepage/Homepage'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import firebase from "firebase/compat/app";
 import { initializeApp } from "firebase/app";
+import {getAuth} from "firebase/auth";
 import { getAnalytics } from "firebase/analytics";
 import Register from './components/Register/Register';
 import Login from './components/Login/Login';
@@ -34,6 +35,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
 const analytics = getAnalytics(app);
   return (
     <>
