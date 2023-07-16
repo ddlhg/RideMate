@@ -51,6 +51,7 @@ body{
     color: black;
     font-weight: 500;
     font-size: 25px;
+    text-align: center;
 }
 
 .text1{
@@ -83,38 +84,42 @@ body{
     border-radius: 50px;
 }
 
-.school-section{
-    
-}
-
 .school-title{
     padding-top: 30px;
-    text-align: center;
+    margin-left: 50%;
     color: rgb(255, 255, 255);
-    font-weight:500;
+    font-weight: lighter;
+}
+
+.schools-section{
+    padding-bottom: 50px;
+    padding-top: 10px;
+    background-color: #004AAD;
+    align-items: center;
+}
+
+.school-list{
+    font-size: 23px;
+    display: flex;
+    border: red 1px solid;
+}
+
+.logo-container{
+    margin-left: 15%;
+    margin-right: 5%;
 }
 
 .fau-logo{
-    width: 25%;
+    margin-top: 20px;
+    width: 200px;
+    padding: 50px;
+    border: yellow solid;
 }
 
-.left{
-    border:yellow solid;
-    width:33%;
-    height: 100px;
-
-}
-
-.middle{
-    border:rgb(255, 166, 0) solid;
-    width:33%;
-    height: 100px;
-}
-
-.right{
-    border:rgb(0, 255, 17) solid;
-    width:33%;
-    height: 100px;
+.pbsc-logo{
+    padding: 50px;
+    border: yellow solid;
+    width: 200px;
 }
 
 .footer-section{
@@ -138,4 +143,3 @@ body{
     text-align: center;
     font-weight: lighter;
 }
-

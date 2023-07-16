@@ -3,6 +3,7 @@ import "./Homepage.css";
 import ridesharedriver from "../images/rideshare-driver-handsome.png";
 import rideshareuser from "../images/rideshare-user.png";
 import faulogo from "../images/fau-logo.png";
+import pbsc from "../images/pbsc-logo.png";
 
 function Homepage() {
   return (
@@ -42,24 +43,31 @@ function Homepage() {
         </div>
       </div>
 
-      <div id='schools' className="school-section">
+
+      
+
+      <div id='schools' className="schools-section">
         <h1 className="school-title">Schools That We Work With</h1>
+        
+        <div className="school-list">
 
-        <div className="left">
+          <div className="logo-container">
           <img src={faulogo} className="fau-logo" alt="fau-logo" />
+          </div>
+
+          <div>
+            <p id='text'>Florida Atlantic Univerity</p>
+            <p id='text'>Palm Beach State College</p>
+            <p id='text'>Florida Atlantic University High School</p>
+          </div>
           
-        </div>
+          <div className="logo-container">
+            <img src={pbsc} className="pbsc-logo" alt="pbsc-logo" />
+          </div>
 
-        <div className="middle">
-          <p>Florida Atlantic Univerity</p>
-          <p>Palm Beach State College</p>
-          <p>Florida Atlantic University High School</p>
-        </div>
-
-        <div className="right">
-          <img src={faulogo} className="fau-logo" alt="fau-logo" />
         </div>
       </div>
+
 
       <div className="footer-section">
         <footer>
@@ -76,6 +84,7 @@ function Homepage() {
         </div>
         </footer>
       </div>
+      
     </div>
   );
 }
