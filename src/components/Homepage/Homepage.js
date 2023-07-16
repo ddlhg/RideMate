@@ -2,6 +2,7 @@ import React from "react";
 import "./Homepage.css";
 import ridesharedriver from "../images/rideshare-driver-handsome.png";
 import rideshareuser from "../images/rideshare-user.png";
+
 function Homepage() {
   return (
     <div className="whole-page">
@@ -51,7 +52,7 @@ function Homepage() {
           <p className="dev-name">Daniela Herrera</p>
           <p className="dev-name">Gikai Andrews</p>
           <p className="dev-name">Jerusha Stewart</p>
-          
+
         </div>
         </footer>
       </div>
