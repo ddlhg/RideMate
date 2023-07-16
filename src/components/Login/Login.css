@@ -50,6 +50,14 @@ a:hover {
   color: #fff;
 }
 
+.login-title{
+  color: white;
+}
+
+.label-name{
+  color: white;
+}
+
 .login-button{
   background-color: transparent;
   border-radius: 12px;
@@ -57,6 +65,14 @@ a:hover {
   font-size: 18px;
   color: white;
   border-color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.login-button:hover{
+background-color: white;
+color: black;
 }
 
 .input-group{

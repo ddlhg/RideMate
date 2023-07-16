@@ -36,10 +36,10 @@ function Login() {
         <img className="floating-image" src={rideshareuser} alt="Floating" />
       </div>
       <div className="login-container">
-        <h2>Login</h2>
+        <h2 className="login-title">Login</h2>
         <form>
           <div className="input-group">
-            <label htmlFor="username">Email</label>
+            <label htmlFor="username" className="label-name">Email</label>
             <input
               type="text"
               id="email"
@@ -49,7 +49,7 @@ function Login() {
             />
           </div>
           <div className="input-group">
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password" className="label-name">Password</label>
             <input
               type="password"
               id="password"
@@ -67,7 +67,7 @@ function Login() {
             <p className="create-account-link">
               If you want to make an account click
               <a href="/register" className="signup-button">
-                here
+              here
               </a>
             </p>
           </div>

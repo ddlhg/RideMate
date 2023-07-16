@@ -31,7 +31,7 @@ function Homepage() {
         </div>
       </div>
       <div className="school-section">
-        <h1 className="school-section-title">Schools That We Work With</h1>
+        <h1 className="school-section-title" id="schools">Schools That We Work With</h1>
         <div className="school-list">
           <ul>
             <li>Florida Atlantic Univerity</li>
