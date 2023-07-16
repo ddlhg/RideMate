@@ -56,9 +56,9 @@ function Homepage() {
           </div>
 
           <div>
-            <p id='text'>Florida Atlantic Univerity</p>
-            <p id='text'>Palm Beach State College</p>
-            <p id='text'>Florida Atlantic University High School</p>
+            <p id='text'><strong>Florida Atlantic Univerity</strong></p>
+            <p id='text'><strong>Palm Beach State College</strong></p>
+            <p id='text'><strong>Florida Atlantic University High School</strong></p>
           </div>
           
           <div className="logo-container">

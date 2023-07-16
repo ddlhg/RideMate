@@ -86,7 +86,7 @@ body{
 
 .school-title{
     padding-top: 30px;
-    margin-left: 50%;
+    margin-left: 37%;
     color: rgb(255, 255, 255);
     font-weight: lighter;
 }
@@ -101,7 +101,6 @@ body{
 .school-list{
     font-size: 23px;
     display: flex;
-    border: red 1px solid;
 }
 
 .logo-container{
@@ -113,12 +112,10 @@ body{
     margin-top: 20px;
     width: 200px;
     padding: 50px;
-    border: yellow solid;
 }
 
 .pbsc-logo{
     padding: 50px;
-    border: yellow solid;
     width: 200px;
 }
 
