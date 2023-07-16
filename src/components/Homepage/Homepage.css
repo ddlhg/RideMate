@@ -47,7 +47,6 @@ body{
     padding-top: 35px;
 }
 
-
 #text{
     color: black;
     font-weight: 500;
@@ -55,7 +54,6 @@ body{
 }
 
 .text1{
-    border: green 1px solid;
     margin-top: 30px;
     padding:30px;
     width: 20%;
@@ -63,9 +61,7 @@ body{
     margin-left: 2%;
 }
 
-
 .text2{
-    border: rgb(128, 0, 122) 1px solid;
     margin-top: 80px;
     padding:30px;
     width: 25%;
@@ -74,7 +70,6 @@ body{
 }
 
 .text3{
-    border: rgb(239, 255, 8) 1px solid;
     margin-top: 30px;
     padding:30px;
     width: 25%;
@@ -88,12 +83,12 @@ body{
     border-radius: 50px;
 }
 
-
 .school-section{
     background-color: white;
     height: 200px;
     width: 100%;
 }
+
 .school-section-title{
     text-align: center;
     color: black;

@@ -22,19 +22,19 @@ function Homepage() {
           <img src={rideshareuser} className="safety-picture" alt="rideshare-user" />
           <div className='text1'>
             <p id='text'>
-              Between 2017 and 2019, Lyft received 10 reports of fatal physical
-              assaults and 1,096 reports of sexual assault
+              Between <strong>2017</strong> and <strong>2019</strong>, Lyft received 10 reports of fatal physical
+              assaults and <strong>1,096</strong> reports of sexual assault
             </p>
           </div>
 
           <div  className='text2'>
-            <p id='text'>Average Uber prices soared by 92% from 2018 to 2021.</p>
+            <p id='text'>Average Uber prices soared by <strong>92%</strong> from <strong>2018</strong> to <strong>2021</strong>.</p>
           </div>
           
           <div className='text3'>
             <p id='text'>
-              Americans who make $75,000 a year are twice as likely as those
-              earning less than $30,000 per year to have used ridesharing services
+              Americans who make <strong>$75,000</strong> a year are twice as likely as those
+              earning less than <strong>$30,000</strong> per year to have used ridesharing services
             </p>
           </div>
 
