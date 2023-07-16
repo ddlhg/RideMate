@@ -37,18 +37,17 @@
   width: 60vw;
   justify-content: end;
   margin-right: 2rem;
-  border:rgb(0, 217, 255) solid;
 }
 
 .nav-item {
-  border:rgb(128, 17, 0) solid;
+  
 }
 
 .nav-links {
   display: flex;
   align-items: center;
   height: 55px;
-  border:green solid;
+
 }
 
 .nav-item:hover {
@@ -85,7 +84,6 @@
     opacity: 1;
     transition: all 0.5s ease;
   }
- 
 
   .nav-menu.active {
     background: #242222;
@@ -102,13 +100,11 @@
     display: table;
     align-items: center;
     text-align: center;
-    border:none;
   }
 
   .nav-links:hover {
     background-color: #fff;
     color: #242424;
-    border-radius: 0;
   }
 
   .menu-icon {
@@ -135,7 +131,7 @@
     text-decoration: none;
     font-size: 1.5rem;
     background-color: transparent;
-    color: #fff;
+    color: #ffffff;
     padding: 14px 10px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
@@ -152,8 +148,7 @@
   width:100%;
   padding: 10px 25px;
   border-radius: 15px;
-  outline: none;
-  border:1px solid;
+  border:2px solid;
   cursor: pointer;
   color: white;
   background-color: transparent;
@@ -171,8 +166,7 @@
 .login-btn{
   padding: 10px 25px;
   border-radius: 15px;
-  outline: none;
-  border:1px solid;
+  border:2px solid;
   cursor: pointer;
   color: white;
   background-color: transparent;
@@ -184,4 +178,10 @@
 .login-btn:hover{
   background-color: white;
   color: black;
+}
+
+:link{
+  border:none;
+  color: rgb(95, 95, 95);
+  font-size: 25px;
 }
