@@ -41,10 +41,7 @@ function Homepage() {
           </div>
 
         </div>
-      </div>
-
-
-      
+      </div>  
 
       <div id='schools' className="schools-section">
         <h1 className="school-title">Schools That We Work With</h1>
@@ -67,7 +64,6 @@ function Homepage() {
 
         </div>
       </div>
-
 
       <div className="footer-section">
         <footer>

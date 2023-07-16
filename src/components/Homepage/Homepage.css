@@ -56,7 +56,7 @@ body{
 
 .text1{
     margin-top: 30px;
-    padding:30px;
+    padding:20px;
     width: 20%;
     height: 20%;
     margin-left: 2%;
@@ -64,15 +64,15 @@ body{
 
 .text2{
     margin-top: 80px;
-    padding:30px;
+    padding:20px;
     width: 25%;
     height: 20%;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .text3{
     margin-top: 30px;
-    padding:30px;
+    padding:20px;
     width: 25%;
     height: 20%;
     margin-left: 5%;
@@ -82,6 +82,7 @@ body{
 .safety-picture{
     margin-left: 3%;
     border-radius: 50px;
+    width: 25%;
 }
 
 .school-title{
