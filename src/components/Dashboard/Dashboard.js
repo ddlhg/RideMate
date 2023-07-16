@@ -119,10 +119,8 @@ function Dashboard() {
           <p id='small-text'><strong>Instagram: </strong><a href="https://www.instagram.com/" id='email'> @hernan_sara</a></p>
         </div>
       </div>
-      
     </div>
   );
 }
-
 
 export default Dashboard;
