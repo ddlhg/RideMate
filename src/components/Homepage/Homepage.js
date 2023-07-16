@@ -30,7 +30,7 @@ function Homepage() {
           <img src={rideshareuser} alt="rideshare-user" />
         </div>
       </div>
-      <div className="school-section">
+      <div id='schools' className="school-section">
         <h1 className="school-section-title">Schools That We Work With</h1>
         <div className="school-list">
           <ul>
