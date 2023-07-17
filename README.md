@@ -6,10 +6,6 @@ A Scrum-based frontend project created by a team for the Principles of Software 
 
 The project was built using HTML and CSS, with the team utilizing various frameworks and libraries to enhance the application's functionality and design.
 
-## Hosting
-
-????????????????????????????????
-
 ## Project Management
 
 explain how Trello helped with the project?????????????????????
@@ -24,12 +20,13 @@ RideMate is a successful example of a Scrum-based front-end project built using 
 
 ### Instructions
 - npm install
-- npm install firebase
+- npm install Firebase
 - npm start
 
 
 ### Project Team 13
-homepage picture!!
+<img width="1120" alt="image" src="https://github.com/ddlhg/RideMate/assets/116442206/2205e106-9bb6-4fc4-9c5d-5627cba0b551">
+
 
 ### Trello
 <img width="852" alt="image" src="https://github.com/ddlhg/RideMate/assets/116442206/4659941c-9cbe-452c-927c-6b5bf3166634">
