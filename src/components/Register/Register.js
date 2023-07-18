@@ -20,7 +20,7 @@ function Register() {
         //Signed in
         const user = userCredential.user;
         console.log(user);
-        navigate("/login");
+        navigate("/dashboard");
         //....
       })
 

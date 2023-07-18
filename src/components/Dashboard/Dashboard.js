@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 function Dashboard() {
   const [inputText, setInputText] = useState("");
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e) => {
     
     setInputText(e.target.value);
   }
