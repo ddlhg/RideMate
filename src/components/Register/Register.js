@@ -5,6 +5,36 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase";
 import { useNavigate } from "react-router-dom";
 import ridematePhone from "../images/ridematePhone.png";
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/analytics';
+
+
+//function Register() {
+ // const navigate = useNavigate();
+
+ // const [email, setEmail] = useState("");
+ // const [password, setPassword] = useState("");
+
+ // const onSubmit = async (e) => {
+   // e.preventDefault();
+
+   // await createUserWithEmailAndPassword(auth, email, password)
+     // .then((userCredential) => {
+        ////Signed in
+       // const user = userCredential.user;
+       // console.log(user);
+       // navigate("/dashboard");
+        //....
+     // })
+
+     // .catch((error) => {
+       // const errorCode = error.code;
+        //const errorMessage = error.message;
+        //console.log(errorCode, errorMessage);
+     // });
+  //};
+  
 
 function Register() {
   const navigate = useNavigate();
@@ -12,24 +42,37 @@ function Register() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  const isValidEduEmail = (email) => {
+    // Add your list of valid edu email domains here
+    const validEduDomains = ["bc.edu", "fau.edu", "pbsc.edu"];
+    const domain = email.split("@")[1];
+    return validEduDomains.includes(domain);
+  };
+
   const onSubmit = async (e) => {
     e.preventDefault();
 
+    if (!isValidEduEmail(email)) {
+      console.log("Please provide a valid edu email address.");
+      return;
+    }
+
     await createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
-        //Signed in
+        // Signed in
         const user = userCredential.user;
         console.log(user);
         navigate("/dashboard");
         //....
       })
-
       .catch((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
         console.log(errorCode, errorMessage);
       });
   };
+
+
 
   return (
     <div className="page">
