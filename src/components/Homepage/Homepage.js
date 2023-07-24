@@ -5,6 +5,14 @@ import rideshareuser from "../images/rideshare-user.png";
 import faulogo from "../images/fau-logo.png";
 import pbsc from "../images/pbsc-logo.png";
 
+const emailLinks = {
+    "Antonio Crissy": "mailto:acroissy2019@fau.edu",
+    "Ameer Khan": "mailto:akhan2019@fau.edu",
+    "Daniela Herrera": "mailto:dherrera2022@fau.edu",
+    "Gikai Andrews": "mailto:gandrews2020@fau.edu",
+    "Jerusha Stewart": "mailto:jerushastewa2022@fau.edu",
+  };
+
 function Homepage() {
   return (
     <div className="whole-page">
@@ -68,17 +76,17 @@ function Homepage() {
 
       <div className="footer-section">
         <footer>
-        <h1 className="footer-title">Contact Us</h1>
-        <div className="contact-footer-column">
-          <h3>Developers</h3>
-          
-          <p className="dev-name">Antonio Crissy</p>
-          <p className="dev-name">Ameer Khan</p>
-          <p className="dev-name">Daniela Herrera</p>
-          <p className="dev-name">Gikai Andrews</p>
-          <p className="dev-name">Jerusha Stewart</p>
+          <h1 className="footer-title">Contact Us</h1>
+          <div className="contact-footer-column">
+            <h3>Developers</h3>
 
-        </div>
+            <p className="dev-name" onClick={() => window.open(emailLinks["Antonio Crissy"])}>Antonio Crissy</p>
+            <p className="dev-name" onClick={() => window.open(emailLinks["Ameer Khan"])}>Ameer Khan</p>
+            <p className="dev-name" onClick={() => window.open(emailLinks["Daniela Herrera"])}>Daniela Herrera</p>
+            <p className="dev-name" onClick={() => window.open(emailLinks["Gikai Andrews"])}>Gikai Andrews</p>
+            <p className="dev-name" onClick={() => window.open(emailLinks["Jerusha Stewart"])}>Jerusha Stewart</p>
+
+          </div>
         </footer>
       </div>
       
