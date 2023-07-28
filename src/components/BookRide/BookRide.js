@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import "./BookRide.css";
-import { firestore } from "./firebase";
+// import { firestore } from "./firebase";
 
 //function BookRide(){
     //return(<div></div>)
@@ -13,16 +13,16 @@ import { firestore } from "./firebase";
 function BookRide  () {
   const [location, setLocation] = useState("");
 
-  const handleRequest = () => {
-    if (location.trim() !== "") {
-      // Save the ride request to Firestore
-      firestore.collection("rideRequests").add({
-        location: location.trim(),
-        timestamp: new Date(),
-      });
-      setLocation("");
-    }
-  };
+  // const handleRequest = () => {
+  //   if (location.trim() !== "") {
+  //     // Save the ride request to Firestore
+  //     firestore.collection("rideRequests").add({
+  //       location: location.trim(),
+  //       timestamp: new Date(),
+  //     });
+  //     setLocation("");
+  //   }
+  // };
 
   return (
     <div>
@@ -33,7 +33,7 @@ function BookRide  () {
         onChange={(e) => setLocation(e.target.value)}
         placeholder="Enter your location"
       />
-      <button onClick={handleRequest}>Book Ride</button>
+      <button>Book Ride</button>
     </div>
   );
 };
