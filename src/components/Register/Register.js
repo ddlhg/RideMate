@@ -9,33 +9,6 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/analytics';
 
-
-//function Register() {
- // const navigate = useNavigate();
-
- // const [email, setEmail] = useState("");
- // const [password, setPassword] = useState("");
-
- // const onSubmit = async (e) => {
-   // e.preventDefault();
-
-   // await createUserWithEmailAndPassword(auth, email, password)
-     // .then((userCredential) => {
-        ////Signed in
-       // const user = userCredential.user;
-       // console.log(user);
-       // navigate("/dashboard");
-        //....
-     // })
-
-     // .catch((error) => {
-       // const errorCode = error.code;
-        //const errorMessage = error.message;
-        //console.log(errorCode, errorMessage);
-     // });
-  //};
-  
-
 function Register() {
   const navigate = useNavigate();
 
