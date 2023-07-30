@@ -2,10 +2,10 @@ import React from "react";
 import "./Register.css";
 import { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebase";
+// import { Auth } from "firebase/compat/auth";
 import { useNavigate } from "react-router-dom";
 import ridematePhone from "../images/ridematePhone.png";
-import firebase from 'firebase/app';
+// import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/analytics';
 
@@ -30,19 +30,19 @@ function Register() {
       return;
     }
 
-    await createUserWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        // Signed in
-        const user = userCredential.user;
-        console.log(user);
-        navigate("/dashboard");
-        //....
-      })
-      .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        console.log(errorCode, errorMessage);
-      });
+    // await createUserWithEmailAndPassword(Auth, email, password)
+    //   .then((userCredential) => {
+    //     // Signed in
+    //     const user = userCredential.user;
+    //     console.log(user);
+    //     navigate("/dashboard");
+    //     //....
+    //   })
+      // .catch((error) => {
+      //   const errorCode = error.code;
+      //   const errorMessage = error.message;
+      //   console.log(errorCode, errorMessage);
+      // });
   };
 
 

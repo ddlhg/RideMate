@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Login.css";
 import rideshareuser from "../images/rideshare-user.png";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebase";
+// import { auth } from "../firebase";
 import { useNavigate } from "react-router-dom";
 // import authentication from './authentication';
 
@@ -11,21 +11,21 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const onLogin = (e) => {
-    e.preventDefault();
-    signInWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        // Signed in
-        const user = userCredential.user;
-        navigate("/dashboard");
-        console.log(user);
-      })
-      .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        console.log(errorCode, errorMessage);
-      });
-  };
+  // const onLogin = (e) => {
+  //   e.preventDefault();
+  //   signInWithEmailAndPassword(auth, email, password)
+  //     .then((userCredential) => {
+  //       // Signed in
+  //       const user = userCredential.user;
+  //       navigate("/dashboard");
+  //       console.log(user);
+  //     })
+  //     .catch((error) => {
+  //       const errorCode = error.code;
+  //       const errorMessage = error.message;
+  //       console.log(errorCode, errorMessage);
+  //     });
+  // };
 
   return (
     <div className="login-page">
@@ -59,7 +59,8 @@ function Login() {
             />
           </div>
           <div className="button-group">
-            <button className="login-button" onClick={onLogin}>
+            {/* onClick={onLogin} */}
+            <button className="login-button" >
               Login
             </button>{" "}
           </div>
