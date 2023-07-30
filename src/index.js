@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import {UserProvider} from './components/UserContext/UserContext'
+import "@cometchat-pro/chat/dist/css/cometchat.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 

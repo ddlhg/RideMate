@@ -5,7 +5,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase";
 import { useNavigate } from "react-router-dom";
 import ridematePhone from "../images/ridematePhone.png";
-import firebase from 'firebase/app';
+//import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/analytics';
 
