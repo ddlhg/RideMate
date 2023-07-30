@@ -2,13 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../images/logo.png"; 
-import { useUserContext } from "../UserContext/UserContext";
 
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
-  const {isLoggedIn, setIsLoggedIn} = useUserContext();
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -26,9 +24,6 @@ function Navbar() {
   }, []);
 
   window.addEventListener("resize", showButton);
-  const handleLogout = () => {
-    setIsLoggedIn(false);
-  }
 
   return (
       <nav className="navbar">
