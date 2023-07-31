@@ -1,7 +1,9 @@
 import React from "react";
 import "./Register.css";
 import { useState } from "react";
-import { createUserWithEmailAndPassword } from "firebase/auth";
+//import { createUserWithEmailAndPassword } from "firebase/auth";
+import {getAuth,createUserWithEmailAndPassword}from "firebase/auth";
+//import { initializeApp } from "firebase/app";
 // import { Auth } from "firebase/compat/auth";
 import { useNavigate } from "react-router-dom";
 import ridematePhone from "../images/ridematePhone.png";
@@ -34,6 +36,19 @@ function Register() {
       return;
     }
 
+    const auth =getAuth();
+
+    try{
+      await createUserWithEmailAndPassword(auth,email,password);
+      navigate("/dashboard");
+
+    }
+    catch (error) {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      console.log(errorCode, errorMessage);
+    }
+  
     // await createUserWithEmailAndPassword(Auth, email, password)
     //   .then((userCredential) => {
     //     // Signed in
@@ -110,7 +125,7 @@ function Register() {
                     <b>Password</b>
                   </label>
                   <input
-                    type="text"
+                    type="password"
                     className="input-field-register"
                     placeholder="Type your password"
                     name="password"
