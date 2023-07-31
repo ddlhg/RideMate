@@ -50,6 +50,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+          {}
 
           <Link to="/register">
             <button className="sign-up-button">SIGN UP</button>

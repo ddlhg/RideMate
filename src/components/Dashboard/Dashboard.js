@@ -3,7 +3,7 @@ import "./Dashboard.css";
 import sara from "../images/sara.jpg";
 import { ChangeEvent, useState } from "react";
 import { onAuthStateChanged } from "firebase/auth";
-import { auth } from "../firebase";
+// import { Auth } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 
 
@@ -31,7 +31,7 @@ function Dashboard() {
   };
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
+    const unsubscribe = onAuthStateChanged( (user) => {
       if (user) {
         // User is signed in, see docs for a list of available properties
         const uid = user.uid;

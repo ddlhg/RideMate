@@ -2,39 +2,16 @@ import React from "react";
 import "./Register.css";
 import { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebase";
+// import { Auth } from "firebase/compat/auth";
 import { useNavigate } from "react-router-dom";
 import ridematePhone from "../images/ridematePhone.png";
-import firebase from 'firebase/app';
+<<<<<<< HEAD
+//import firebase from 'firebase/app';
+=======
+// import firebase from 'firebase/app';
+>>>>>>> 2a4cf7ec9e68a63dcd4f1e1ac6889a4c02d52b46
 import 'firebase/auth';
 import 'firebase/analytics';
-
-
-//function Register() {
- // const navigate = useNavigate();
-
- // const [email, setEmail] = useState("");
- // const [password, setPassword] = useState("");
-
- // const onSubmit = async (e) => {
-   // e.preventDefault();
-
-   // await createUserWithEmailAndPassword(auth, email, password)
-     // .then((userCredential) => {
-        ////Signed in
-       // const user = userCredential.user;
-       // console.log(user);
-       // navigate("/dashboard");
-        //....
-     // })
-
-     // .catch((error) => {
-       // const errorCode = error.code;
-        //const errorMessage = error.message;
-        //console.log(errorCode, errorMessage);
-     // });
-  //};
-  
 
 function Register() {
   const navigate = useNavigate();
@@ -57,19 +34,19 @@ function Register() {
       return;
     }
 
-    await createUserWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
-        // Signed in
-        const user = userCredential.user;
-        console.log(user);
-        navigate("/dashboard");
-        //....
-      })
-      .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        console.log(errorCode, errorMessage);
-      });
+    // await createUserWithEmailAndPassword(Auth, email, password)
+    //   .then((userCredential) => {
+    //     // Signed in
+    //     const user = userCredential.user;
+    //     console.log(user);
+    //     navigate("/dashboard");
+    //     //....
+    //   })
+      // .catch((error) => {
+      //   const errorCode = error.code;
+      //   const errorMessage = error.message;
+      //   console.log(errorCode, errorMessage);
+      // });
   };
 
 
