@@ -107,7 +107,7 @@ function Homepage() {
     </div>
         </footer>
       
-      
+    </div>
     </div>
   );
 }
